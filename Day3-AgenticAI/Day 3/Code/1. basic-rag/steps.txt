@@ -1,0 +1,16 @@
+1. In terminal 
+python -m venv .venv
+
+2. Activate the virtual environment
+.\.venv\Scripts\Activate.ps1
+
+3. Run dependencies
+python -m pip install -r requirements.txt
+
+4. Add "Documents" in PDF format in the "documents" folder
+
+5. Run the Data Ingestion pipeline
+> python ingest.py
+
+6. Run the application
+> streamlit runn app.py

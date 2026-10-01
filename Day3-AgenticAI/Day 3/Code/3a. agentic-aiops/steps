@@ -1,0 +1,18 @@
+Run the following in terminal
+1. pip install -r requirements.txt
+
+2. python seed_prompts.py
+   -> uploads the agent prompts to Langfuse Prompt Management
+
+3. python orchestrator.py
+   -> runs the Saga on paper.pdf, evaluates it, prints the Langfuse trace URL
+   Options: python orchestrator.py paper1.pdf --model gpt-4o-mini
+            python orchestrator.py --simulate-failure   (rollback demo)
+            python orchestrator.py --no-ragas           (custom evaluators only)
+
+4. python experiment.py
+   -> runs all papers as a Langfuse dataset run; repeat with another
+      --model or prompt version and compare runs under Datasets -> research-papers
+
+5. streamlit run app.py
+   -> upload a paper and view the three agents' results, scores and trace link

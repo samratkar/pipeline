@@ -1,0 +1,9 @@
+{
+    "eval_questions": [
+        {"question": "What is a Cloud-Native Application?", "reference": ""},
+        {"question": "What is a Container?", "reference": ""},
+        {"question": "What is the difference between REST and gRPC?", "reference": ""},
+        {"question": "What is the process of Fine-Tuning?", "reference": ""},
+        {"question": "What is the role of an API gateway in a cloud-native system?", "reference": ""}
+    ]
+}

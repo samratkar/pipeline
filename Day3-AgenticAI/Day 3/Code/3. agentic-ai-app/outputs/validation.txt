@@ -1,0 +1,1 @@
+VALID - The excerpt presents a coherent, academically plausible framework (semantic SPA using an ontology, OWL-S, and Web services) with standard sections and references. While results/evaluation aren’t shown in the excerpt, the approach aligns with established Semantic Web methodologies.
