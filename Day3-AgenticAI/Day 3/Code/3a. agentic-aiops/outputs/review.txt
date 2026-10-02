@@ -1,18 +1,18 @@
 Strengths
-- Addresses interoperability challenges in Student-Project Allocation (SPA) across institutions by applying semantic Web technologies.
-- Proposes a standardized SPA data model via a new SPA ontology, enabling semantic consistency.
-- Incorporates a semantic Web service approach using OWL-S to enable automatic discovery, composition, and invocation of SPA services.
-- Leverages existing semantic investments in educational institutions and aligns with Web 3.0 concepts.
-- Focuses on situational SPA scenarios driven by globalization and cross-institution collaboration.
+- Proposes a Semantic SPA framework to address interoperability challenges in Student-Project Allocation by leveraging semantic Web concepts and existing semantic investments in educational institutions.
+- Introduces a dedicated SPA ontology to standardize SPA concepts and a reference ontology for situational SPA, facilitating cross-institution understanding and reuse.
+- Uses OWL-S to enable automatic discovery, composition, and invocation of SPA Web services, supporting dynamic and interoperable service-based solutions.
+- Focuses on situational SPA scenarios arising from globalization, interdisciplinary collaboration, and multi-campus contexts, which are increasingly relevant in higher education.
 
 Weaknesses
-- The excerpt provides no empirical validation, concrete ontology definitions, or implementation details.
-- No discussion of deployment challenges, scalability, security, or governance in the provided text.
-- Contribution appears high-level without presented methodology, case studies, or evaluation results in the excerpt.
+- The excerpt provides no empirical validation, case studies, or deployment results to substantiate the framework’s effectiveness.
+- No justification or comparison of SOAP/OWL-S against modern alternatives (e.g., REST/JSON, Linked Data, or RESTful Semantic Web services) is discussed in the provided text.
+- Limited detail on the ontology design, mappings to existing ontologies, or practical guidelines for adoption across diverse institutions.
+- Dependence on widespread semantic investments across institutions may limit practicality if institutions have heterogeneous or incomplete semantic data assets.
 
 Suggestions
-- Include formal definitions and schemas for the SPA ontology, plus mappings to existing educational data standards.
-- Provide detailed implementation guidance for the SOAP-based SPA services and OWL-S service descriptions, including a running example.
-- Offer an evaluation plan with case studies across multiple institutions and clear metrics for interoperability and performance.
-- Discuss scalability, security, privacy, and governance considerations for cross-institution deployments.
-- Include a comparative analysis with existing SPA approaches and outline practical adoption steps for educational institutions.
+- Include empirical evaluation across multiple institutions or a prototype deployment to demonstrate interoperability, scalability, and stable matching in situational SPA scenarios.
+- Provide a detailed ontology design document, including mappings to existing educational ontologies and guidance for adoption across diverse institutional data sources.
+- Justify the choice of SOAP/OWL-S and discuss potential alternatives (e.g., REST/JSON-LD) with a comparative analysis of benefits and trade-offs.
+- Add practical deployment guidance, governance models, security considerations, and maintenance plans to support cross-institutional adoption and long-term sustainability.
+- Incorporate performance benchmarks and scalability assessments (e.g., response times, reasoning efficiency) under realistic SPA workloads.

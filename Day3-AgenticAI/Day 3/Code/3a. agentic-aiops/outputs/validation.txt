@@ -1,5 +1,5 @@
 VALID
 
-Plausible academic manuscript with standard sections (abstract, introduction) and a coherent proposal to use semantic web technologies (OWL, OWL-S, ontologies) for a Student-Project Allocation problem. No obvious methodological or textual red flags in the excerpt.
+The excerpt presents a coherent, plausible research proposal on semantic web-based Student-Project Allocation, with clear objectives, methodology (OWL ontology, OWL-S, SOAP services), and references. The structure and terminology are consistent with academic papers.
 
-Confidence: 0.65
+Confidence: 0.63

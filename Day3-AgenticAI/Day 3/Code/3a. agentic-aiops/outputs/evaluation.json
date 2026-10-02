@@ -4,27 +4,27 @@
         "comment": "VALID"
     },
     "validation_confidence": {
-        "value": 0.65,
+        "value": 0.63,
         "comment": "Self-reported confidence of the Validation agent"
     },
     "review_completeness": {
         "value": 1.0,
-        "comment": "strengths=5, weaknesses=3, suggestions=5"
+        "comment": "strengths=4, weaknesses=4, suggestions=5"
     },
     "summary_length_score": {
-        "value": 0.923,
-        "comment": "277 words (target 300)"
+        "value": 0.933,
+        "comment": "280 words (target 300)"
     },
     "summary_faithfulness": {
         "value": 1.0,
         "comment": null
     },
     "summary_score": {
-        "value": 0.49913762340906687,
+        "value": 0.3628157091312825,
         "comment": null
     },
     "review_faithfulness": {
-        "value": 0.9230769230769231,
+        "value": 0.8125,
         "comment": null
     }
 }
